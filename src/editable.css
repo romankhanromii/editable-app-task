@@ -1,0 +1,72 @@
+/* EditableTable.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .table-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .delete-btn{
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background-color: #45a049;
+  }
+
+  
+  .add-btn {
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #999;
+  }
+  
